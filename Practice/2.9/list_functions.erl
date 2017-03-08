@@ -5,7 +5,7 @@
 -author("alex").
 
 %% API
--export([double/1, evens/1, sort/1]).
+-export([double/1, evens/1]).
 
 double([])->[];
 double([N|Ns])->[N*2|double(Ns)].
